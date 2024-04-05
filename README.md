@@ -1,6 +1,8 @@
+En el siguiente repositorio se recoge el código desarrollado en el trabajo del Programa Experto en Inteligencia Artificial de MBIT.
+
 En el notebook FudNutIA.ipynb se recoge todo el desarrollo del modelo, desde la descarga de datos, pasando por el entrenamiento del modelo y terminando con la visualización de resultados. Este código sería preferible ejecutar con la herramienta Google Colaboratory.
 
-En el fichero env.txt se recogen las instrucciones para crear el entorno de desarrollo.
+En el fichero env/env.txt se recogen las instrucciones para crear el entorno de desarrollo.
 
 El notebook mlflow.ipynb debe ser ejecutado en local para levantar la interfaz de MLflow.
 
