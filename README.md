@@ -4,4 +4,12 @@ En el fichero env.txt se recogen las instrucciones para crear el entorno de desa
 
 El notebook mlflow.ipynb debe ser ejecutado en local para levantar la interfaz de MLflow.
 
-El archivo fudnut.py ejecuta la aplicación con el modelo entrenado. Se debe descargar el modelo fudnut_model.h5 y ponerlo en el mismo directorio que el archivo .py
+````
+mlflow ui
+````
+
+El archivo fudnut.py ejecuta la aplicación con el modelo entrenado. Se debe descargar el modelo fudnut_model.h5 y ponerlo en el mismo directorio que el archivo .py. La aplicación se ejecuta con el siguiente comando, previa activación del entorno.
+
+````
+streamlit run fudnut.py
+````
